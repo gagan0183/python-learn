@@ -1,8 +1,2 @@
-print(bool(10))
-print(bool("Canada"))
-
-print(bool(0))
-print(bool(""))
-
-print(True and False)
-print(True or False)
+friends = [["Person", 10], ["Person", 11], ["Person", "12"]]
+print(friends[0][1])
