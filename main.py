@@ -1,6 +1,3 @@
-values = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(values)
-values.append(10)
-print(values)
-values.remove(10)
-print(values)
+short_tuple = "A", "B" # tuple without brackets
+a_bit_clearer_tuple = ("A", "B") # tuple with brackets
+tuple_within_list = [("A", "B")] # tuple in a list
