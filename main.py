@@ -1,3 +1,3 @@
 age = input("Enter your age: ")
 age_num = int(age)
-print(f"You have lived for {age_num * 12} months")
+print(f"You have lived for {age * 12} months")
