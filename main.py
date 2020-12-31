@@ -1,3 +1,4 @@
-age = int(input("Enter your age: "))
-months = age * 12
-print(f"You have lived for {months} months")
+num = 9
+entered_num = int(input("Enter the magic: "))
+matches = num == entered_num
+print(f"You got it right: {matches}")
