@@ -1,4 +1,5 @@
-num = 9
-entered_num = int(input("Enter the magic: "))
-matches = num == entered_num
-print(f"You got it right: {matches}")
+print(bool(10))
+print(bool("Canada"))
+
+print(bool(0))
+print(bool(""))
