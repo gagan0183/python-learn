@@ -1,6 +1,6 @@
 name = "Gagandeep Canada"
-greeting = "How are you {}"
-print(greeting.format(name))
+greeting = "How are you {name}"
+print(greeting.format(name = "Gagan Canada"))
 
 name = "singh"
-print(greeting.format(name))
+print(greeting.format(name = name))
