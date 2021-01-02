@@ -1,8 +1,6 @@
 list = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
-print(list[1:2])
-print(list[1:])
-print(list[:10])
-print(list[-3:])
-print(list[:-1])
-print(list[-5:-4])
-print(list[:]) # returns new list
+list = [value.lower() for value in list]
+
+alphabet = input("Enter an alphabet: ")
+if alphabet.lower() in list:
+  print("Alphabet is present")
