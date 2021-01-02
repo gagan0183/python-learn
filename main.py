@@ -1,6 +1,10 @@
-list = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
-list = [value.lower() for value in list]
+list1 = ['A', 'P', 'D', 'E']
+list2 = ['A', 'P', 'B']
 
-alphabet = input("Enter an alphabet: ")
-if alphabet.lower() in list:
-  print("Alphabet is present")
+list = [
+  value
+  for value in list2
+  if value.lower() in [val.lower() for val in list1]
+]
+
+print(list)
