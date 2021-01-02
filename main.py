@@ -1,3 +1,8 @@
-values = {"Gagan": 34, "Gurleen": 35, "Bhavkirat": 2.9}
-for name, age in values.items():
-  print(f"{name} has age {age}")
+cars = ["ok", "ok", "faulty", "ok"]
+
+for status in cars:
+  if status == "faulty":
+    break;
+  print(f"The car has {status} status")
+else:
+  print("All cars are shipped successfully")
