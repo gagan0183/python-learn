@@ -1,8 +1,7 @@
-cars = ["ok", "ok", "faulty", "ok"]
-
-for status in cars:
-  if status == "faulty":
-    break;
-  print(f"The car has {status} status")
-else:
-  print("All cars are shipped successfully")
+for n in range(2, 10):
+  for x in range(2, n):
+    if n % x == 0:
+      print(f"{n} = {x} * {n // x}")
+      break;
+  else:
+    print(f"{n} is prime")
