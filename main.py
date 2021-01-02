@@ -1,10 +1,9 @@
-list1 = ['A', 'P', 'D', 'E']
-list2 = ['A', 'P', 'B']
+values = ['A', 'P']
+numbers = [1, 2] 
 
-set = {
-  value
-  for value in list2
-  if value.lower() in [val.lower() for val in list1]
+dictionary = {
+  values[i]: numbers[i]
+  for i in range(len(values))
 }
 
-print(set)
+print(dictionary)
