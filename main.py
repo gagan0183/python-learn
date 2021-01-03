@@ -1,1 +1,2 @@
-print(1, 2 , 3, sep = ',')
+divide = lambda x, y : x / y
+print(divide(10, 1))
