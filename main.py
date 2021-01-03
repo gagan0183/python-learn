@@ -7,8 +7,8 @@ operations = {
 values = [10, 100, 1000]
 
 average = operations["average"](values)
-print(f"Average of the values: {average}")
 total = operations["total"](values)
-print(f"Total value: {total}")
 max = operations["max"](values)
+print(f"Average of the values: {average}")
+print(f"Total value: {total}")
 print(f"Max value: {max}")
