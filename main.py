@@ -1,6 +1,6 @@
-values = ['A', 'P']
-numbers = [1, 2] 
+def divide(x, y):
+  if y == 0:
+    return 'divide by zero'
+  return x / y
 
-data = list(zip(values, numbers))
-
-print(data)
+print(divide(10, 1))
