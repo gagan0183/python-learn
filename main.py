@@ -1,1 +1,6 @@
-print((lambda x, y : x / y)(10 , 1))
+def greet():
+  print("Hello")
+
+hello = greet
+
+print(hello)
