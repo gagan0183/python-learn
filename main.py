@@ -1,6 +1,9 @@
+def before_and_after(func):
+  print("Before")
+  func()
+  print("After")
+
 def greet():
   print("Hello")
 
-hello = greet
-
-print(hello)
+before_and_after(greet)
