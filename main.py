@@ -1,12 +1,14 @@
-# higher order function
-# first class function
-def before_and_after(func):
-  print("Before")
-  func()
-  print("After")
+operations = {
+  "average": lambda seq: sum(seq) / len(seq),
+  "total": lambda seq: sum(seq),
+  "max": lambda seq: max(seq)
+}
 
-# first class function
-def greet():
-  print("Hello")
+values = [10, 100, 1000]
 
-before_and_after(greet)
+average = operations["average"](values)
+print(f"Average of the values: {average}")
+total = operations["total"](values)
+print(f"Total value: {total}")
+max = operations["max"](values)
+print(f"Max value: {max}")
