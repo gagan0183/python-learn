@@ -1,2 +1,1 @@
-divide = lambda x, y : x / y
-print(divide(10, 1))
+print((lambda x, y : x / y)(10 , 1))
