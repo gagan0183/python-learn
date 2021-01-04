@@ -9,3 +9,5 @@ class Student:
 student_one = Student('Name', [100, 1000])
 
 print(student_one.average())
+
+print(Student.average(student_one))
