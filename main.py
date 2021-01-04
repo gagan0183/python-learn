@@ -1,14 +1,11 @@
-operations = {
-  "average": lambda seq: sum(seq) / len(seq),
-  "total": lambda seq: sum(seq),
-  "max": lambda seq: max(seq)
-}
+class Student:
+  def __init__(self, new_name, new_grades):
+    self.name = new_name
+    self.grades = new_grades
 
-values = [10, 100, 1000]
+  def average(self):
+    return sum(self.grades)/len(self.grades)
 
-average = operations["average"](values)
-total = operations["total"](values)
-max = operations["max"](values)
-print(f"Average of the values: {average}")
-print(f"Total value: {total}")
-print(f"Max value: {max}")
+student_one = Student('Name', [100, 1000])
+
+print(student_one.average())
