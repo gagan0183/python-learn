@@ -1,13 +1,20 @@
 class Student:
-  def __init__(self, new_name, new_grades):
-    self.name = new_name
-    self.grades = new_grades
+  def __init__(self, name):
+    self.name = name
 
-  def average(self):
-    return sum(self.grades)/len(self.grades)
+class Garage:
+  def __init__(self):
+    self.cars = []
 
-student_one = Student('Name', [100, 1000])
+  def __len__(self):
+    return len(self.cars)
 
-print(student_one.average())
+  def __getitem__(self, i):
+    return self.cars[i]
 
-print(Student.average(student_one))
+ford = Garage()
+ford.cars.append('Fiesta')
+
+print(ford[0])
+
+xx
